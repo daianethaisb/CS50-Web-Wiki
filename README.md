@@ -10,4 +10,10 @@ Das funcionalidades implementadas
 * Nova página: permite a criação de uma nova página na enciclopédia;
 * Editar página : em cada página de entrada, o usuário deve ser capaz de clicar em um link para ser levado a uma página onde o usuário pode editar o conteúdo Markdown dessa entrada em um arquivo textarea;
 * Página aleatória : clicar em “Página aleatória” na barra lateral deve levar o usuário a uma entrada aleatória da enciclopédia;
-* Conversão de Markdown para HTML : Na página de cada entrada, qualquer conteúdo Markdown no arquivo de entrada deve ser convertido para HTML antes de ser exibido ao usuário;
+* Conversão de Markdown para HTML : Na página de cada entrada, qualquer conteúdo Markdown no arquivo de entrada deve ser convertido para HTML antes de ser exibido ao usuário.
+
+**Como executar o aplicativo**
+
+- Execute as migrações com o comando python manage.py makemigrations.
+- Aplique migrações com o comando python [manage.py](http://manage.py/) migrate.
+- Execute o servidor usando python [manage.py](http://manage.py/) runserver.
